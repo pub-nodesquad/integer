@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: rgba(48, 45, 45, 0.651);
+    margin: 0;
+    align-items: center;
+    font-family: "Google Sans", sans-serif;
+    height: 41.1rem;
+}
+
+h1, td, th, caption {
+    color: #fff;
+}
+
+h1, td, th {
+    text-align: start;
+}
+
+td, th {
+    padding: 10px;
+}
+
+.container {
+    background-color: rgb(48 45 45 / 65%);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+
+.photo>img {
+    width: 8rem;
+    height: 10rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(48, 45, 45, 0.651);
+}
+
+tr:hover {
+    background-color: rgba(22, 2, 2, 0.623);
+}
