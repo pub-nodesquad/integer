@@ -13,7 +13,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #8df;
+  background-color: #8f8;
 }
 
 footer {
@@ -22,7 +22,6 @@ footer {
 
 h1 {
   margin: 0;
-  color: #008;
 }
 
 table {
@@ -34,8 +33,12 @@ td {
   border: 1px solid;
 }
 
+a {
+  color: #080;
+}
+
 .tombol {
-  background-color: #00f;
+  background-color: #080;
   color: #fff;
   padding-inline: 18px;
   height: 36px;
@@ -61,6 +64,7 @@ td {
   justify-content: center;
 }
 
-.table-biodata th, td {
+.table-biodata th,
+td {
   padding: 10px;
 }
