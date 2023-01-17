@@ -44,3 +44,23 @@ td {
   align-items: center;
   text-decoration: none;
 }
+
+.biodata-trs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 10px;
+}
+
+.biodata-trs h1 {
+  text-align: center;
+}
+
+.table-biodata {
+  display: flex;
+  justify-content: center;
+}
+
+.table-biodata th, td {
+  padding: 10px;
+}
