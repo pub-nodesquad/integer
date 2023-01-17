@@ -1,7 +1,7 @@
 {
   "name": "junks-book",
   "version": "1.0.0",
-  "description": "Media sosial resmi PUB",
+  "description": "Media sosial resmi Indonesia",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ."

@@ -1,0 +1,46 @@
+body {
+  font-family: "Google Sans", sans-serif;
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  padding: 8px 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8df;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #008;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid;
+}
+
+.tombol {
+  background-color: #00f;
+  color: #fff;
+  padding-inline: 18px;
+  height: 36px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
