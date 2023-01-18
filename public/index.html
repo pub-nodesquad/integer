@@ -13,7 +13,7 @@
       <a href="/login" class="tombol">Login</a>
     </header>
     <main>
-      <h1>Selamat datang di Integer!</h1>
+      <h1 id="hello"></h1>
       <p>Media sosial open source untuk umat.</p>
       <h1>Kontributor</h1>
       <ul>
@@ -44,5 +44,12 @@
       </ul>
     </main>
     <footer>© 2023 Node.js Squad</footer>
+    <script>
+      fetch("/api/hello")
+        .then((response) => response.text())
+        .then((message) => {
+          document.getElementById("hello").textContent = message;
+        });
+    </script>
   </body>
 </html>

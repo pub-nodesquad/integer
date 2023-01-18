@@ -4,7 +4,7 @@
   "description": "Media sosial open source untuk umat",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "nodemon api"
   },
   "keywords": [
     "social-media",

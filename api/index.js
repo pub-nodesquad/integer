@@ -7,7 +7,7 @@ app.use(express.static("public"));
 app.use(express.json());
 
 app.get("/api/hello", async (_req, res) => {
-  res.send("Hello, world!");
+  res.send("Selamat datang di Integer!");
 });
 
 app.get("/api/baca", async (_req, res) => {
