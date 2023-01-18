@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(109, 85, 21, 0.651);
+    align-items: center;
+    font-family: "Google Sans", sans-serif;
+    height: 50rem;
+}
+.Biodata{
+    display: flex;
+}
+
+td,th {
+    padding: 10px;
+}
+
+.Biodata {
+    background-color: rgba(139, 119, 62, 0.65);
+    border-radius: 4px;
+    padding: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid;
+}
+
