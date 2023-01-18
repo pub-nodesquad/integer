@@ -3,6 +3,11 @@ body {
     margin: 0;
   }
   
+
+.main{
+  background-color: rgb(93, 139, 153);
+}
+  
   header,
   main,
   footer {
@@ -20,20 +25,39 @@ body {
     text-align: center;
   }
   
-  h1 {
+  h1{
     margin: 0;
     color: #008;
   }
   
+  .judul{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
   table {
     border-collapse: collapse;
+    margin-left: 460px;
+  }
+
+  tr:hover{
+    background-color: azure;
   }
   
   th,
   td {
-    border: 1px solid;
+    border: 3px solid;
+    padding: 8px;
+    text-align: left;
   }
+
+
   
+  tr:nth-child(even) {
+    background-color: rgb(164, 214, 238);
+  
+} 
+
   .tombol {
     background-color: #00f;
     color: #fff;
