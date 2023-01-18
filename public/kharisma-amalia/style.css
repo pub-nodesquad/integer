@@ -1,0 +1,36 @@
+*{
+    font-family: "Google Sans", sans-serif;
+  
+}
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #BFEAF5;
+}
+
+th,td{
+    border:1px solid;
+    padding: 17px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#A0C3D2;
+
+}
+header{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 315px;
+    height:484px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+caption{
+    font-size: 12px;
+}
