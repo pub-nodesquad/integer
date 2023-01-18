@@ -4,6 +4,7 @@ import { readFile, writeFile } from "node:fs/promises";
 const app = express();
 
 app.use(express.static("public"));
+
 app.use(express.json());
 
 app.get("/api/baca", async (_req, res) => {
