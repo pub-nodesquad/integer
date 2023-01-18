@@ -4,8 +4,11 @@ import { readFile, writeFile } from "node:fs/promises";
 const app = express();
 
 app.use(express.static("public"));
-
 app.use(express.json());
+
+app.get("/api/hello", async (_req, res) => {
+  res.send("Hello, world!");
+});
 
 app.get("/api/baca", async (_req, res) => {
   const text = await readFile("./data.txt", "utf8");
