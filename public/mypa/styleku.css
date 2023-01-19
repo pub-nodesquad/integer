@@ -1,0 +1,30 @@
+table,
+tr,
+td {
+  background-color: rgb(212, 212, 208);
+  font-family: century gothic;
+  color: green;
+  border: 1px solid rgb(86, 26, 119);
+  padding: 5px;
+  border-collapse: collapse;
+}
+.h {
+  border: 8px groove yellow;
+  padding: 20px;
+}
+.posisi {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  left: 0;
+  right: 0;
+  top: 100px;
+  bottom: 0;
+}
+body {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: 1400px auto;
+}
