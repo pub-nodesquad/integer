@@ -20,4 +20,15 @@ app.post("/api/tulis", async (req, res) => {
   res.send(`Berhasil menulis "${req.body.text}" ke file data.txt.`);
 });
 
+const posta = ["dsadsadsa", "dsadasd"];
+app.post("/api/ali-hanafiah", (req, res) => {
+  posta.push(req.body.kata);
+  res.send("berhasil");
+})
+
+app.get("/api/ali-hanafiah", (_req, res) => {
+  res.send(posta);
+})
+
+
 app.listen(3000, () => console.log("Server berjalan."));
