@@ -28,10 +28,11 @@ app.get("/api/aliya",async(_req,res)=>{
  });
 
  app.post("/api/aliya",async(req,res)=>{
-  array.push(req.body);
+  array.push(req.body.aliya);
   array.forEach(e=> {
     console.log(e);
   });
+  res.send("berhasil menambahkan data!");
  });
   
 app.listen(3000, () => console.log("Server berjalan."));
