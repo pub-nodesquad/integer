@@ -23,11 +23,11 @@ app.post("/api/tulis", async (req, res) => {
 });
 
 
-app.post("/api/amalia",async(req,res)=>{
+app.post("/api/amalia",async(req,_res)=>{
     volume.push(req.body.text);
 })
 
-app.get("/api/amalia",async(req,res)=>{
-  console.log(volume);
+app.get("/api/amalia",async(_req,res)=>{
+  res.send(volume);
 })
 app.listen(3000, () => console.log("Server berjalan."));
