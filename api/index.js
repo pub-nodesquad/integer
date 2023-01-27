@@ -6,6 +6,8 @@ const app = express();
 app.use(express.static("public"));
 app.use(express.json());
 
+const volume=["tempe bacem","little ponny"];
+
 app.get("/api/hello", async (_req, res) => {
   res.send("Selamat datang di Integer!");
 });
@@ -20,4 +22,12 @@ app.post("/api/tulis", async (req, res) => {
   res.send(`Berhasil menulis "${req.body.text}" ke file data.txt.`);
 });
 
+
+app.post("/api/amalia",async(req,res)=>{
+    volume.push(req.body.text);
+})
+
+app.get("/api/amalia",async(req,res)=>{
+  console.log(volume);
+})
 app.listen(3000, () => console.log("Server berjalan."));
