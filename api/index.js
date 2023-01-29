@@ -1,6 +1,16 @@
 import express from "express";
 import { readFile, writeFile } from "node:fs/promises";
 
+import pkg from "pg";
+const { Client } = pkg;
+
+const client = new Client({
+  user: "postgres",
+  password: "integer",
+  database: "integer",
+});
+await client.connect();
+
 const app = express();
 
 app.use(express.static("public"));
@@ -20,4 +30,11 @@ app.post("/api/tulis", async (req, res) => {
   res.send(`Berhasil menulis "${req.body.text}" ke file data.txt.`);
 });
 
+app.get("/api/mahasiswa", async (_req, res) => {
+  const dbRes = await client.query("SELECT * FROM mahasiswa");
+  res.send(dbRes.rows);
+});
+
 app.listen(3000, () => console.log("Server berjalan."));
+
+// await client.end();
