@@ -1,0 +1,33 @@
+th,td{
+    border: 1px solid;
+    padding: 15px;   
+    background-color: #E5E0FF;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+.table{
+    background-color: #8EA7E9;
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+img{
+    padding-bottom: 2x;
+    width: 500px;
+    height:500px;
+}
+p{
+    display: flex;
+    text-align: center;
+}

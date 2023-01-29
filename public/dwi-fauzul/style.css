@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: dimgrey;
+}
+img{
+    width: 11rem;
+    height: 16rem;
+}
+table{
+    border-collapse: collapse;
+}
+td,tr{
+    border: 1px solid;
+}
+.bingkai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: grey;
+    padding: 20px;
+}
+caption{
+    padding: 10px;
+}

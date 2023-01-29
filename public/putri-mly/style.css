@@ -1,0 +1,38 @@
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #3a3838;
+    color: rgb(209, 212, 214);
+}
+
+
+th,
+td {
+    border: 1px solid rgb(38, 35, 35);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3a3838;
+}
+
+img {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.img-container{
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+}
